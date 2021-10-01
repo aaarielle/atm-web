@@ -1,0 +1,1 @@
+var atm = angular.module('ATM', []);

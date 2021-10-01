@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--Bootstrap CDN-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+	<!--CSS Link-->
+	<link rel="stylesheet" href="C:\Users\OWNER\Desktop\atm\style\style.css">
+
+	<title>AngularJS</title>
+
+	<!--AngularJS CDN-->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-app="ATM">
+	<div class="mainDiv">
+		<div class="headerDiv">
+			<h1>Online Banking</h1>
+		</div>
+		<div class="wc" ng-controller="currentBal">Welcome!
+			<br>
+			<h5><i>Your current balance is: {{ balance }}</i></h5>
+		</div>
+		<div class="option">
+			<div class="withdraw"><a href="wd.html">WITHDRAW MONEY</a></div>
+		</div>
+	</div>
+	<script src="C:\Users\OWNER\Desktop\atm\js\atm.js"></script>
+	<script src="C:\Users\OWNER\Desktop\atm\js\Controller\command.js"></script>
+</body>
+</html>

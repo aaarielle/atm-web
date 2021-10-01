@@ -1,0 +1,44 @@
+.mainDiv{
+	border: solid 2px;
+	height: 500px;
+	width: 450px;
+	margin: auto;
+	margin-top: 90px;
+}
+
+.headerDiv{
+	font-family: Courier New;
+	text-align: center;
+	background-color: #d3d3d3;
+	border: solid 1px;
+}
+
+.option{
+	height: 200px;
+	margin-top: 50px;
+}
+
+.withdraw{
+	border: solid 1px;
+	background-color: #DCDCDC;
+	width: 160px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 155px;
+	text-align: center;
+}
+
+.wc{
+	text-align: center;
+	font-family: sans-serif;
+	color: #008080;
+	font-size: xx-large;
+	margin-top: 80px;
+}
+
+.minus{
+
+	height: 100px;
+	text-align: center;
+	margin-top: 130px;
+}
